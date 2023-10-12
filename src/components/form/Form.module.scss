@@ -1,0 +1,30 @@
+.title {
+  @apply text-2xl font-semibold mb-6;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.label {
+  @apply block text-sm font-medium mb-2;
+}
+
+.input {
+  @apply w-full p-1.5 border rounded-md text-black;
+}
+
+.submit-btn {
+  @apply bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600;
+}
+
+.footer {
+  @apply flex justify-between items-center mt-12;
+  a {
+    @apply text-blue-300 hover:text-blue-400;
+  }
+}
+
+.error {
+  @apply text-red-500 text-xs mt-1;
+}

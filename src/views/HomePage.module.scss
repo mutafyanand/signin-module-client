@@ -1,0 +1,15 @@
+.main-container {
+  @apply text-4xl font-semibold mt-32 text-center;
+}
+
+.username {
+  @apply font-extrabold;
+}
+
+.logo {
+  @apply h-80 mx-auto mt-20;
+}
+
+.sign-out {
+  @apply text-right m-8;
+}
